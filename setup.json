@@ -51,12 +51,12 @@
     },
     {
         "session": "bot 2",
-        "token": "8018134151:",
-        "api_id": "22",
-        "api_hash": "a69",
+        "token": "8916557754:AAGyX4M3P2CGIdAXSzvPcktixXR-6Xz0CsQ:",
+        "api_id": "15055049",
+        "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
-        "db_uri": "mongodb+srv://filestore:filestore@cluster0.mongodb.net/?appName=Cluster0",
-        "db_name": "lelouch",
+        "db_uri": "mongodb+srv://newsudo:786780@cluster0.pbiae8a.mongodb.net/?appName=Cluster0",
+        "db_name": "newsudo",
         "gofile_enabled": true,
         "gofile_tokens": [
             "ZsDQrvlerSdCLguDwsFJwBNxrs1LTXgQ"
@@ -67,7 +67,7 @@
             "secondary": [],
             "backup": null
         },
-        "auto_del": 600,
+        "auto_del": 900,
         "messages": {
             "START": "<b><blockquote>›› ʜɪ ᴛʜᴇʀᴇ... {mention} ››</blockquote>\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\n<blockquote>ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Animes_Mayhem</blockquote></b>",
             "FSUB": "<b>ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs</b>",
@@ -101,12 +101,12 @@
     },
     {
         "session": "bot 3",
-        "token": "83161898",
-        "api_id": "22",
-        "api_hash": "a69e8b1",
+        "token": "8916557754:AAGyX4M3P2CGIdAXSzvPcktixXR-6Xz0CsQ",
+        "api_id": "15055049",
+        "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
-        "db_uri": "mongodb+srv://filestore:filestore@cluster0.mongodb.net/?appName=Cluster0",
-        "db_name": "lelouch",
+        "db_uri": "mongodb+srv://newsudo:786780@cluster0.pbiae8a.mongodb.net/?appName=Cluster0",
+        "db_name": "newsudo",
         "gofile_enabled": true,
         "gofile_tokens": [
             "ZsDQrvler"
