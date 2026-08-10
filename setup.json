@@ -1,7 +1,7 @@
 [
     {
         "session": "bot 1",
-        "token": "8916557754:AAGyX4M3P2CGIdAXSzvPcktixXR-6Xz0CsQ",
+        "token": "8963707209:AAEQ3cGsP-x6sCY08-0Q1vzvCujpGZZtnTE",
         "api_id": "15055049",
         "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
@@ -13,7 +13,7 @@
         ],
         "fsubs": [],
         "databases": {
-            "primary": -1004399071689,
+            "primary": -1004411816077,
             "secondary": [],
             "backup": null
         },
@@ -51,7 +51,7 @@
     },
     {
         "session": "bot 2",
-        "token": "8916557754:AAGyX4M3P2CGIdAXSzvPcktixXR-6Xz0CsQ:",
+        "token": "8963707209:AAEQ3cGsP-x6sCY08-0Q1vzvCujpGZZtnTE:",
         "api_id": "15055049",
         "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
@@ -63,7 +63,7 @@
         ],
         "fsubs": [],
         "databases": {
-            "primary": -100,
+            "primary": -1004411816077,
             "secondary": [],
             "backup": null
         },
@@ -101,7 +101,7 @@
     },
     {
         "session": "bot 3",
-        "token": "8916557754:AAGyX4M3P2CGIdAXSzvPcktixXR-6Xz0CsQ",
+        "token": "8963707209:AAEQ3cGsP-x6sCY08-0Q1vzvCujpGZZtnTE",
         "api_id": "15055049",
         "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
@@ -113,7 +113,7 @@
         ],
         "fsubs": [],
         "databases": {
-            "primary": -10,
+            "primary": -1004411816077,
             "secondary": [],
             "backup": null
         },
