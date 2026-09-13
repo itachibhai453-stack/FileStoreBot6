@@ -1,19 +1,17 @@
 [
     {
         "session": "bot 1",
-        "token": "8963707209:AAEQ3cGsP-x6sCY08-0Q1vzvCujpGZZtnTE",
+        "token": "8727224804:AAGqc_IhAnyewvDviTwxHBdLuD28-b8c8Mk",
         "api_id": "15055049",
         "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
-        "db_uri": "mongodb+srv://newsudo:786780@cluster0.pbiae8a.mongodb.net/?appName=Cluster0",
-        "db_name": "newsudo",
+        "db_uri": "mongodb+srv://lucifer123:786780@cluster0.pbiae8a.mongodb.net/?appName=Cluster0",
+        "db_name": "lucifer123",
         "gofile_enabled": true,
-        "gofile_tokens": [
-            "ZsD"
-        ],
-        "fsubs": [],
+        "gofile_tokens": ["ZsD"],
+        "fsubs": [-1001982307384],
         "databases": {
-            "primary": -1004411816077,
+            "primary": -1004421987424,
             "secondary": [],
             "backup": null
         },
@@ -45,10 +43,10 @@
                 ]
             ]
         },
-        "admins": [8304839512],
+        "admins": [],
         "disable_btn": true,
         "protect": false
-    },
+    }
     {
         "session": "bot 2",
         "token": "8963707209:AAEQ3cGsP-x6sCY08-0Q1vzvCujpGZZtnTE:",
