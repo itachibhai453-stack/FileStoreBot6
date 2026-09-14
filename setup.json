@@ -10,11 +10,7 @@
         "gofile_enabled": true,
         "gofile_tokens": ["ZsD"],
         "fsubs": [-1001982307384],
-        "databases": {
-            "primary": -1004421987424,
-            "secondary": [],
-            "backup": null
-        },
+        "databases": [-1004421987424],
         "auto_del": 900,
         "messages": {
             "START": "<b><blockquote>›› ʜɪ ᴛʜᴇʀᴇ... {mention} ››</blockquote>\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\n<blockquote>ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Anime_Hub_Tamil</blockquote></b>",
@@ -42,7 +38,7 @@
                 ]
             ]
         },
-        "admins": [],
+        "admins": [8304839512],
         "disable_btn": true,
         "protect": false
     },
@@ -59,15 +55,11 @@
             "ZsDQrvlerSdCLguDwsFJwBNxrs1LTXgQ"
         ],
         "fsubs": [-1001982307384],
-        "databases": {
-            "primary": -1004421987424,
-            "secondary": [],
-            "backup": null
-        },
+        "databases": [-1004421987424],
         "auto_del": 900,
         "messages": {
             "START": "<b><blockquote>›› ʜɪ ᴛʜᴇʀᴇ... {mention} ››</blockquote>\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\n<blockquote>ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Animes_Mayhem</blockquote></b>",
-            "FSUB": "<b>ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀdk‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs</b>",
+            "FSUB": "<b>ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs</b>",
             "ABOUT": "<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/TeamMayhem'>ᴍᴀʏʜᴇᴍ</a>\n›› ᴏᴡɴᴇʀ: <a href='https://t.me/NaapaExtra'>ɴᴀᴘᴀᴇxᴛʀᴀ</a>\n›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3/'>Pʏᴛʜᴏɴ 3</a>\n›› ʟɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>\n›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>\n›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/NaapaExtra'>ɴᴀᴘᴀᴇxᴛʀᴀ</a></b>",
             "HELP": "<blockquote expandable><b>➪ I ᴀᴍ ᴀ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ, ᴍᴇᴀɴᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ғɪʟᴇs ᴀɴᴅ ɴᴇᴄᴇssᴀʀʏ sᴛᴜғғ ᴛʜʀᴏᴜɢʜ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ ғᴏʀ <a href='https://t.me/animes_mayhem'>ᴀɴɪᴍᴇ ᴍᴀʏʜᴇᴍ</a>.\n\n➪ Iɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴛʜᴇ ᴀʟʟ ᴍᴇɴᴛɪᴏɴᴇᴅ ᴄʜᴀɴɴᴇʟ ᴛʜᴀᴛ ɪ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛᴏ ᴊᴏɪɴ. Yᴏᴜ ᴄᴀɴ ɴᴏᴛ ᴀᴄᴄᴇss ᴏʀ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴜɴʟᴇss ʏᴏᴜ ᴊᴏɪɴᴇᴅ ᴀʟʟ ᴄʜᴀɴɴᴇʟs.\n\n➪ Sᴏ ᴊᴏɪɴ Mᴇɴᴛɪᴏɴᴇᴅ Cʜᴀɴɴᴇʟs ᴛᴏ ɢᴇᴛ Fɪʟᴇs!...\n\n‣ /help - Oᴘᴇɴ ᴛʜɪs ʜᴇʟᴘ ᴍᴇssᴀɢᴇ !</b></blockquote expandable>",
             "SUPPORT_GRP": "https://t.me/WeebsCloud",
@@ -87,7 +79,7 @@
                     {"text": "• ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇꜱ •", "url": "https://t.me/realm_bots"}
                 ],
                 [
-                    {"text": "• ᴊᴏɪɴ ᴀɴɪᴍᴇ ᴍᴀʏʜᴇᴍ •", "url": "https://t.me/animes_mayhem"}
+                    {"text": "• ᴊᴏɪɴ ᴀɴɪ繆 ᴍᴀʏʜᴇᴍ •", "url": "https://t.me/animes_mayhem"}
                 ]
             ]
         },
@@ -108,14 +100,10 @@
             "ZsDQrvler"
         ],
         "fsubs": [-1001982307384],
-        "databases": {
-            "primary": -1004421987424,
-            "secondary": [],
-            "backup": null
-        },
+        "databases": [-1004421987424],
         "auto_del": 600,
         "messages": {
-            "START": "<b><blockquote>›› ʜɪ ᴛʜᴇʀᴇ... {mention} ››</blockquote>\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\n<blockquote>ᴘᴏᴡᴇʀᴇ德 ʙʏ @Animes_Mayhem</blockquote></b>",
+            "START": "<b><blockquote>›› ʜɪ ᴛʜᴇʀᴇ... {mention} ››</blockquote>\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\n<blockquote>ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Animes_Mayhem</blockquote></b>",
             "FSUB": "<b>ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ sᴜʙsᴄʀɪʙᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs</b>",
             "ABOUT": "<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/TeamMayhem'>ᴍᴀʏʜᴇᴍ</a>\n›› ᴏᴡɴᴇʀ: <a href='https://t.me/NaapaExtra'>ɴᴀᴘᴀᴇxᴛʀᴀ</a>\n›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3/'>Pʏᴛʜᴏɴ 3</a>\n›› ʟɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>\n›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>\n›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href='https://t.me/NaapaExtra'>ɴᴀᴘᴀᴇxᴛʀᴀ</a></b>",
             "HELP": "<blockquote expandable><b>➪ I ᴀᴍ ᴀ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ, ᴍᴇᴀɴᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ғɪʟᴇs ᴀɴᴅ ɴᴇᴄᴇssᴀʀʏ sᴛᴜғғ ᴛʜʀᴏᴜɢʜ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ ғᴏʀ <a href='https://t.me/animes_mayhem'>ᴀɴɪᴍᴇ ᴍᴀʏʜᴇᴍ</a>.\n\n➪ Iɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴛʜᴇ ᴀʟʟ ᴍᴇɴᴛɪᴏɴᴇᴅ ᴄʜᴀɴɴᴇʟ ᴛʜᴀᴛ ɪ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛᴏ ᴊᴏɪɴ. Yᴏᴜ ᴄᴀɴ ɴᴏᴛ ᴀᴄᴄᴇss ᴏʀ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴜɴʟᴇss ʏᴏᴜ ᴊᴏɪɴᴇᴅ ᴀʟʟ ᴄʜᴀɴɴᴇʟs.\n\n➪ Sᴏ ᴊᴏɪɴ Mᴇɴᴛɪᴏɴᴇᴅ Cʜᴀɴɴᴇʟs ᴛᴏ ɢᴇᴛ Fɪʟᴇs!...\n\n‣ /help - Oᴘᴇɴ ᴛʜɪs ʜᴇʟᴘ ᴍᴇssᴀɢᴇ !</b></blockquote expandable>",
@@ -145,18 +133,3 @@
         "protect": false
     }
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
