@@ -1,7 +1,7 @@
 [
     {
         "session": "bot 1",
-        "token": "8727224804:AAGqc_IhAnyewvDviTwxHBdLuD28-b8c8Mk",
+        "token": "8727224804:AAFKY3yVExlnXBhL9rKN3b2-FixP4xUv17E",
         "api_id": "15055049",
         "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
@@ -9,8 +9,8 @@
         "db_name": "azeezbashaimran_db_user",
         "gofile_enabled": true,
         "gofile_tokens": ["ZsD"],
-        "fsub": [
-    [-100123456789, false, 0]
+        "fsubs": [
+            [-100123456789, false, 0]
         ],
         "databases": {
             "primary": [-1004421987424],
@@ -50,7 +50,7 @@
     },
     {
         "session": "bot 2",
-        "token": "8727224804:AAGqc_IhAnyewvDviTwxHBdLuD28-b8c8Mk",
+        "token": "8727224804:AAFKY3yVExlnXBhL9rKN3b2-FixP4xUv17E",
         "api_id": "15055049",
         "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
@@ -60,7 +60,9 @@
         "gofile_tokens": [
             "ZsDQrvlerSdCLguDwsFJwBNxrs1LTXgQ"
         ],
-        "fsubs": [-1001982307384],
+        "fsubs": [
+            [-1001982307384, false, 0]
+        ],
         "databases": {
             "primary": [-1004421987424],
             "secondary": [],
@@ -99,7 +101,7 @@
     },
     {
         "session": "bot 3",
-        "token": "8727224804:AAGqc_IhAnyewvDviTwxHBdLuD28-b8c8Mk",
+        "token": "8727224804:AAFKY3yVExlnXBhL9rKN3b2-FixP4xUv17E",
         "api_id": "15055049",
         "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
@@ -109,7 +111,9 @@
         "gofile_tokens": [
             "ZsDQrvler"
         ],
-        "fsubs": [-1001982307384],
+        "fsubs": [
+            [-1001982307384, false, 0]
+        ],
         "databases": {
             "primary": [-1004421987424],
             "secondary": [],
