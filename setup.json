@@ -5,8 +5,8 @@
         "api_id": "15055049",
         "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
-        "db_uri": "mongodb+srv://lucifer123:786780@cluster0.pbiae8a.mongodb.net/?appName=Cluster0",
-        "db_name": "lucifer123",
+        "db_uri": "mongodb+srv://azeezbashaimran_db_user:F0NZSClydlcL2TBI@cluster0.sjw3p5j.mongodb.net/?appName=Cluster0",
+        "db_name": "azeezbashaimran_db_user",
         "gofile_enabled": true,
         "gofile_tokens": ["ZsD"],
         "fsubs": [-1001982307384],
@@ -52,8 +52,8 @@
         "api_id": "15055049",
         "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
-        "db_uri": "mongodb+srv://lucifer123:786780@cluster0.pbiae8a.mongodb.net/?appName=Cluster0",
-        "db_name": "lucifer123",
+        "db_uri": "mongodb+srv://azeezbashaimran_db_user:F0NZSClydlcL2TBI@cluster0.sjw3p5j.mongodb.net/?appName=Cluster0",
+        "db_name": "azeezbashaimran_db_user",
         "gofile_enabled": true,
         "gofile_tokens": [
             "ZsDQrvlerSdCLguDwsFJwBNxrs1LTXgQ"
@@ -101,8 +101,8 @@
         "api_id": "15055049",
         "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
-        "db_uri": "mongodb+srv://lucifer123:786780@cluster0.pbiae8a.mongodb.net/?appName=Cluster0",
-        "db_name": "lucifer123",
+        "db_uri": "mongodb+srv://azeezbashaimran_db_user:F0NZSClydlcL2TBI@cluster0.sjw3p5j.mongodb.net/?appName=Cluster0",
+        "db_name": "azeezbashaimran_db_user",
         "gofile_enabled": true,
         "gofile_tokens": [
             "ZsDQrvler"
