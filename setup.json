@@ -9,7 +9,9 @@
         "db_name": "azeezbashaimran_db_user",
         "gofile_enabled": true,
         "gofile_tokens": ["ZsD"],
-        "fsubs": [-1001982307384],
+        "fsub": [
+    [-100123456789, false, 0]
+        ],
         "databases": {
             "primary": [-1004421987424],
             "secondary": [],
