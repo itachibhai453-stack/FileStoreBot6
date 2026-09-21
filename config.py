@@ -11,7 +11,7 @@ OWNER_ID = 7653921320
 MSG_EFFECT = 5046509860389126442
 
 SHORT_URL = "arolinks.com"
-SHORT_API = "97efe163e07453fe37fcd8a36adb284fb2adca2f"
+SHORT_API = "7dbbfd38f27b393755b525c33abeea2ced2f7465"
 MESSAGES = {
     "SHORT": "https://graph.org/file/d48f3b1c7b41495ce1a0c-4d87ff09137971e900.jpg",
     "SHORTNER_MSG": "<b>🔗 Your files are protected with a shortener!</b>\n\n<b>📺 Watch Tutorial:</b> <a href='{tutorial_link}'>Click Here</a>\n\n<b>🔐 Click the button below to proceed:</b>"
