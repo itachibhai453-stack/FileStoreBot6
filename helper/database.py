@@ -33,10 +33,47 @@ class MongoDB:
         return value
 
     # ==============================
+    # GENERAL SETTINGS
+    # ==============================
+
+    async def load_settings(self, bot_name):
+        data = self.db["settings"].find_one(
+            {"bot_name": bot_name}
+        )
+
+        if data is None:
+            return None
+
+        return data.get("settings", {})
+
+    async def save_settings(self, bot_name, settings):
+        self.db["settings"].update_one(
+            {"bot_name": bot_name},
+            {"$set": {"settings": settings}},
+            upsert=True
+        )
+
+        return settings
+
+    async def set_channels(self, channels):
+        self.db["settings"].update_one(
+            {"_id": "fsub_channels"},
+            {"$set": {"channels": channels}},
+            upsert=True
+        )
+
+        return channels
+
+    # ==============================
     # INVITE LINK
     # ==============================
 
-    async def save_invite_link(self, channel_id, invite_link, is_request=False):
+    async def save_invite_link(
+        self,
+        channel_id,
+        invite_link,
+        is_request=False
+    ):
         self.invite_links.update_one(
             {"channel_id": channel_id},
             {"$set": {
@@ -49,14 +86,18 @@ class MongoDB:
         )
 
     async def get_current_invite_link(self, channel_id):
-        return self.invite_links.find_one({"channel_id": channel_id})
+        return self.invite_links.find_one(
+            {"channel_id": channel_id}
+        )
 
     # ==============================
     # FSUB REQUEST PROGRESS
     # ==============================
 
     async def get_fsub_request_progress(self, channel_id):
-        data = self.fsub_progress.find_one({"channel_id": channel_id})
+        data = self.fsub_progress.find_one(
+            {"channel_id": channel_id}
+        )
 
         if not data:
             data = {
@@ -70,13 +111,21 @@ class MongoDB:
 
         return data
 
-    async def increment_fsub_request(self, channel_id, user_id):
+    async def increment_fsub_request(
+        self,
+        channel_id,
+        user_id
+    ):
         key = f"{channel_id}:{user_id}"
 
         if self.fsub_requests.find_one({"_id": key}):
-            data = await self.get_fsub_request_progress(channel_id)
+            data = await self.get_fsub_request_progress(
+                channel_id
+            )
+
             data["duplicate"] = True
             data["just_completed"] = False
+
             return data
 
         self.fsub_requests.insert_one({
@@ -86,7 +135,9 @@ class MongoDB:
             "created_at": datetime.now(timezone.utc)
         })
 
-        old = await self.get_fsub_request_progress(channel_id)
+        old = await self.get_fsub_request_progress(
+            channel_id
+        )
 
         count = old["count"] + 1
         target = old.get("target", 1000)
@@ -94,16 +145,20 @@ class MongoDB:
 
         data = self.fsub_progress.find_one_and_update(
             {"channel_id": channel_id},
-            {"$set": {
-                "count": count,
-                "completed": completed
-            }},
+            {
+                "$set": {
+                    "count": count,
+                    "completed": completed
+                }
+            },
             return_document=ReturnDocument.AFTER
         )
 
         data["duplicate"] = False
+
         data["just_completed"] = (
-            not old.get("completed", False) and completed
+            not old.get("completed", False)
+            and completed
         )
 
         return data
@@ -129,17 +184,32 @@ class MongoDB:
 
         return data
 
-    async def reset_fsub_request_progress(self, channel_id):
+    async def reset_fsub_request_progress(
+        self,
+        channel_id
+    ):
         return await self.set_fsub_request_target(
             channel_id,
             1000,
             True
         )
 
-    async def get_fsub_request_count(self, channel_id):
-        data = await self.get_fsub_request_progress(channel_id)
+    async def get_fsub_request_count(
+        self,
+        channel_id
+    ):
+        data = await self.get_fsub_request_progress(
+            channel_id
+        )
+
         return data["count"]
 
-    async def is_fsub_completed(self, channel_id):
-        data = await self.get_fsub_request_progress(channel_id)
+    async def is_fsub_completed(
+        self,
+        channel_id
+    ):
+        data = await self.get_fsub_request_progress(
+            channel_id
+        )
+
         return data["completed"]
