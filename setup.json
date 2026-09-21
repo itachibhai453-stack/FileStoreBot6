@@ -1,9 +1,9 @@
 [
     {
         "session": "bot 1",
-        "token": "",
-        "api_id": "",
-        "api_hash": "",
+        "token": "8727224804:AAFKY3yVExlnXBhL9rKN3b2-FixP4xUv17E",
+        "api_id": "15055049",
+        "api_hash": "abe3f66fcd80c91e53009ba52c7b3a83",
         "workers": 8,
         "db_uri": "mongodb+srv://azeezbashaimran_db_user:/?appName=Cluster0",
         "db_name": "azeezbashaimran_er",
