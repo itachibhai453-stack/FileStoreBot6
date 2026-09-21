@@ -325,3 +325,75 @@ class MongoDB:
         except Exception as e:
             print(f"Decode error: {e}")
             return None
+            
+                async def get_fsub_request_progress(self, channel_id: int) -> dict:
+        """Get request counter for a force-sub channel."""
+        data = await self.user_data.find_one(
+            {"_id": f"fsub_progress_{channel_id}"}
+        )
+
+        if not data:
+            return {
+                "count": 0,
+                "target": 1000,
+                "completed": False
+            }
+
+        return {
+            "count": data.get("count", 0),
+            "target": data.get("target", 1000),
+            "completed": data.get("completed", False)
+        }
+
+    async def increment_fsub_request(self, channel_id: int) -> dict:
+        """Atomically increase ForceSub request counter."""
+
+        data = await self.user_data.find_one_and_update(
+            {"_id": f"fsub_progress_{channel_id}"},
+            {
+                "$inc": {"count": 1},
+                "$setOnInsert": {
+                    "target": 1000,
+                    "completed": False
+                }
+            },
+            upsert=True,
+            return_document=True
+        )
+
+        count = data.get("count", 0)
+        target = data.get("target", 1000)
+
+        if count >= target and not data.get("completed", False):
+            await self.user_data.update_one(
+                {"_id": f"fsub_progress_{channel_id}"},
+                {"$set": {"completed": True}}
+            )
+            completed = True
+        else:
+            completed = data.get("completed", False)
+
+        return {
+            "count": count,
+            "target": target,
+            "completed": completed
+        }
+
+    async def set_fsub_request_target(
+        self,
+        channel_id: int,
+        target: int = 1000
+    ):
+        """Set target request count for a channel."""
+
+        await self.user_data.update_one(
+            {"_id": f"fsub_progress_{channel_id}"},
+            {
+                "$set": {
+                    "target": target,
+                    "count": 0,
+                    "completed": False
+                }
+            },
+            upsert=True
+        )
